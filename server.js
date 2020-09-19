@@ -10,9 +10,9 @@ const app = express()
 
 //app config
 const port = 8001 || process.env.PORT
-app.use(express.json())
 app.use(cors())
-//database
+app.use(express.json())
+
 
 //routes
 app.get('/', (req, res)=>{
