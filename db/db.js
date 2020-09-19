@@ -1,6 +1,6 @@
 import mongoose from 'mongoose' 
 
-const url = "mongodb+srv://timothy:clone@cluster0.xuv8d.mongodb.net/tinderclone?retryWrites=true&w=majority"
+const url = "mongodb+srv://timothy:clone@cluster0.xuv8d.mongodb.net/tinderdata?retryWrites=true&w=majority"
 
 mongoose.connect(url, {useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true}, (err)=>{
     if(err){
