@@ -9,7 +9,7 @@ const app = express()
 
 
 //app config
-const port = 8001 || process.env.PORT
+const port = 8234 || process.env.PORT
 app.use(cors())
 app.use(express.json())
 
